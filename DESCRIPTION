@@ -1,0 +1,15 @@
+Package: intnum
+Title: Reglas Elementales de Integración Numérica
+Version: 0.1
+Authors@R: 
+    person(given = "Joan",
+           family = "Boters",
+           role = c("aut", "cre"),
+           email = "al403192@uji.es")
+Description: Este paquete realiza las reglas de integración numérica siguientes:
+             punto medio, rectángulo, trapecio y Simpson.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
