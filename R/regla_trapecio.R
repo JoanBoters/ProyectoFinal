@@ -20,6 +20,6 @@
 #' @seealso \link{regla_punto_medio}, \link{regla_rectangulo}
 #'
   regla_trapecio=function(a,b,f){
-    z=(b-a)*f(a)
+    z=(b-a)*(f(a)+f(b))/2
     return(z)
   }
