@@ -2,3 +2,5 @@
 
 export(regla_punto_medio)
 export(regla_rectangulo)
+export(regla_simpson)
+export(regla_trapecio)
